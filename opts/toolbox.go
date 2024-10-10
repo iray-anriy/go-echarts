@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/go-echarts/go-echarts/v2/types"
+	"github.com/ira-anriy/go-echarts/v2/types"
 )
 
 // Toolbox is the option set for a toolbox component.

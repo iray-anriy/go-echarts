@@ -1,6 +1,6 @@
 package opts
 
-import "github.com/go-echarts/go-echarts/v2/types"
+import "github.com/ira-anriy/go-echarts/v2/types"
 
 // Calendar is the option set for a calendar component.
 // This works with the calendar coordinate system, and it is a heatmap calendar.

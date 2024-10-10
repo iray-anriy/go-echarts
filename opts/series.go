@@ -3,7 +3,7 @@ package opts
 import (
 	"fmt"
 
-	"github.com/go-echarts/go-echarts/v2/types"
+	"github.com/ira-anriy/go-echarts/v2/types"
 )
 
 // Label contains options for a label text, it is a generic label config for all label needs.

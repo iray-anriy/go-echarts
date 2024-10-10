@@ -20,7 +20,7 @@
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="MIT License">
     </a>
-        <a href="https://pkg.go.dev/github.com/go-echarts/go-echarts/v2">
+        <a href="https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2">
         <img src="https://godoc.org/github.com/go-echarts/go-echarts?status.svg" alt="GoDoc">
     </a>
     <a href="https://echarts.apache.org/">
@@ -31,7 +31,7 @@
 > 如果一门语言可以用来写爬虫，那么它就需要一个优雅的数据可视化库。 --- by dongdong
 
 在 Golang 这门语言中，目前数据可视化的第三方库还是特别少，[go-echarts](https://github.com/go-echarts/go-echarts)
-的开发就是为了填补这部分的空隙。  
+的开发就是为了填补这部分的空隙。
 [Apache ECharts](http://echarts.apache.org/) 是非常优秀的可视化图表库，凭借着良好的交互性，精巧的图表设计，得到了众多开发者的认可。
 也有其他语言为其实现了相应语言版本的接口，如 Python 的 [pyecharts](https://github.com/pyecharts/pyecharts)，
 go-echarts 也从 pyecharts 借鉴了一些设计思想。
@@ -52,7 +52,7 @@ $ mkdir v2 && mv charts components datasets opts render templates types v2
 GoMod
 
 ```shell
-require github.com/go-echarts/go-echarts/v2
+require github.com/ira-anriy/go-echarts/v2
 ```
 
 ### ⏳ 版本
@@ -65,17 +65,17 @@ go-echarts 现在有 v1 和 v2 两个大版本，v1 版本的代码位于 v1 分
 
 ### ✨ 特性
 
-* 简洁的 API 设计，使用如丝滑般流畅
-* 囊括了 **25+** 种常见图表，应有尽有
-* 高度灵活的配置项，可轻松搭配出精美的图表
-* 详细的文档和示例，帮助开发者更快的上手项目
-* 多达 **400+** 地图，为地理数据可视化提供强有力的支持
+- 简洁的 API 设计，使用如丝滑般流畅
+- 囊括了 **25+** 种常见图表，应有尽有
+- 高度灵活的配置项，可轻松搭配出精美的图表
+- 详细的文档和示例，帮助开发者更快的上手项目
+- 多达 **400+** 地图，为地理数据可视化提供强有力的支持
 
 ### 📝 使用
 
 使用`go-echarts`
 可以参考[handbook](https://go-echarts.github.io/go-echarts), [go-echarts/examples](https://github.com/go-echarts/examples)
-和 [GoDocs](https://pkg.go.dev/github.com/go-echarts/go-echarts/v2).  
+和 [GoDocs](https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2).
 仅需要几行核心代码就可画出美观的图表
 
 ```golang
@@ -85,8 +85,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/go-echarts/go-echarts/v2/charts"
-	"github.com/go-echarts/go-echarts/v2/opts"
+	"github.com/ira-anriy/go-echarts/v2/charts"
+	"github.com/ira-anriy/go-echarts/v2/opts"
 )
 
 // generate random data for bar chart
@@ -130,9 +130,9 @@ import (
 	"math/rand"
 	"net/http"
 
-	"github.com/go-echarts/go-echarts/v2/charts"
-	"github.com/go-echarts/go-echarts/v2/opts"
-	"github.com/go-echarts/go-echarts/v2/types"
+	"github.com/ira-anriy/go-echarts/v2/charts"
+	"github.com/ira-anriy/go-echarts/v2/opts"
+	"github.com/ira-anriy/go-echarts/v2/types"
 )
 
 // generate random data for line chart

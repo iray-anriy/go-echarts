@@ -1,6 +1,6 @@
 package opts
 
-import "github.com/go-echarts/go-echarts/v2/types"
+import "github.com/ira-anriy/go-echarts/v2/types"
 
 type RadarChart struct {
 	// ColorBy The policy to take color from option.color. Valid values:

@@ -1,6 +1,6 @@
 package opts
 
-import "github.com/go-echarts/go-echarts/v2/types"
+import "github.com/ira-anriy/go-echarts/v2/types"
 
 // XAxis is the option set for X axis.
 // https://echarts.apache.org/en/option.html#xAxis

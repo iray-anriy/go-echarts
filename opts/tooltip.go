@@ -1,6 +1,6 @@
 package opts
 
-import "github.com/go-echarts/go-echarts/v2/types"
+import "github.com/ira-anriy/go-echarts/v2/types"
 
 // Tooltip is the option set for a tooltip component.
 // https://echarts.apache.org/en/option.html#tooltip

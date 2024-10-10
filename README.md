@@ -20,7 +20,7 @@
     <a href="https://opensource.org/licenses/MIT" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="MIT License">
     </a>
-    <a href="https://pkg.go.dev/github.com/go-echarts/go-echarts/v2" style="text-decoration: none;">
+    <a href="https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2" style="text-decoration: none;">
         <img src="https://godoc.org/github.com/go-echarts/go-echarts?status.svg" alt="GoDoc">
     </a>
     <a href="https://echarts.apache.org/" style="text-decoration: none;">
@@ -34,9 +34,9 @@
 > If a language can be used to build web scrapers, it definitely needs to provide a graceful data visualization
 > library. --- by dongdong.
 
-In the Golang ecosystem, there are not many choices for data visualization libraries.  
+In the Golang ecosystem, there are not many choices for data visualization libraries.
 The development of [go-echarts](https://github.com/go-echarts/go-echarts) aims to
-provide a simple yet powerful data visualization library for Golang.   
+provide a simple yet powerful data visualization library for Golang.
 [Apache ECharts](https://echarts.apache.org/) is an awesome charting and visualization library,
 it supports adorable chart types and various interactive features.
 and there have many program languages interactive with Echarts, such as [pyecharts](https://github.com/pyecharts/pyecharts),
@@ -49,8 +49,8 @@ which `go-echarts` learns and has evolved a lot from, and the [echarts4j](https:
 Classic way to get go-echarts
 
 ```shell
-# this may be not a good choice to use v2 go-echarts without gomod(GO111MODULE=off), the 
-# next generation version management system 
+# this may be not a good choice to use v2 go-echarts without gomod(GO111MODULE=off), the
+# next generation version management system
 # Technically, you could use go-echarts in the way below, if you have a better workaround, please let us know....
 
 $ go get -u github.com/go-echarts/go-echarts/...
@@ -61,7 +61,7 @@ $ mkdir v2 && mv charts components datasets opts render templates types v2
 Use gomod style
 
 ```shell
-$ go get -u github.com/go-echarts/go-echarts/v2/...
+$ go get -u github.com/ira-anriy/go-echarts/v2/...
 ```
 
 OR
@@ -69,7 +69,7 @@ OR
 ```shell
 # go.mod
 
-require github.com/go-echarts/go-echarts/v2
+require github.com/ira-anriy/go-echarts/v2
 ```
 
 ### ⏳ Version
@@ -85,16 +85,16 @@ So, if you upgrade your projects cross the `rc` versions, maybe need little adju
 
 ### ✨ Features
 
-* Clean and comprehensive API.
-* Visualize your data in 25+ different ways.
-* Highly configurable chart options.
-* Detailed documentation and a rich collection of examples.
-* Visualize your geographical data with 400+ maps.
+- Clean and comprehensive API.
+- Visualize your data in 25+ different ways.
+- Highly configurable chart options.
+- Detailed documentation and a rich collection of examples.
+- Visualize your geographical data with 400+ maps.
 
 ### 📝 Usage
 
 It's easy to get started with go-echarts with the [handbook](https://go-echarts.github.io/go-echarts), [go-echarts/examples](https://github.com/go-echarts/examples)
-and [GoDocs](https://pkg.go.dev/github.com/go-echarts/go-echarts/v2).
+and [GoDocs](https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2).
 
 In this example, we create a simple bar chart with only a few lines of code.
 
@@ -105,8 +105,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/go-echarts/go-echarts/v2/charts"
-	"github.com/go-echarts/go-echarts/v2/opts"
+	"github.com/ira-anriy/go-echarts/v2/charts"
+	"github.com/ira-anriy/go-echarts/v2/opts"
 )
 
 // generate random data for bar chart
@@ -150,9 +150,9 @@ import (
 	"math/rand"
 	"net/http"
 
-	"github.com/go-echarts/go-echarts/v2/charts"
-	"github.com/go-echarts/go-echarts/v2/opts"
-	"github.com/go-echarts/go-echarts/v2/types"
+	"github.com/ira-anriy/go-echarts/v2/charts"
+	"github.com/ira-anriy/go-echarts/v2/opts"
+	"github.com/ira-anriy/go-echarts/v2/types"
 )
 
 // generate random data for line chart
@@ -221,7 +221,7 @@ func main() {
 </div>
 
 For more information, please refer to [handbook](https://go-echarts.github.io/go-echarts/), [go-echarts/examples](https://github.com/go-echarts/examples) and
-the [GoDoc](https://pkg.go.dev/github.com/go-echarts/go-echarts/v2).
+the [GoDoc](https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2).
 
 ### 💡 Contribution
 

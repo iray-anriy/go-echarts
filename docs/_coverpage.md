@@ -7,7 +7,6 @@
     <em>🎨 The adorable charts library for Golang.</em>
 </p>
 
-
 [GitHub](https://github.com/go-echarts/go-echarts)
-[GoDoc](https://pkg.go.dev/github.com/go-echarts/go-echarts/v2)
+[GoDoc](https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2)
 [Examples](https://github.com/go-echarts/examples)

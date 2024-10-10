@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/go-echarts/go-echarts/v2/templates"
+	"github.com/ira-anriy/go-echarts/v2/templates"
 )
 
 type pageRender struct {

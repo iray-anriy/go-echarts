@@ -1,9 +1,9 @@
 package charts
 
 import (
-	"github.com/go-echarts/go-echarts/v2/opts"
-	"github.com/go-echarts/go-echarts/v2/types"
-	"github.com/go-echarts/go-echarts/v2/util"
+	"github.com/ira-anriy/go-echarts/v2/opts"
+	"github.com/ira-anriy/go-echarts/v2/types"
+	"github.com/ira-anriy/go-echarts/v2/util"
 )
 
 type SingleSeries struct {

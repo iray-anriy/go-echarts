@@ -7,13 +7,12 @@
     <em>🎨 The adorable charts library for Golang.</em>
 </p>
 
-
 # 🔰 Installation
 
 ## gomod
 
 ```shell
-$ go get -u github.com/go-echarts/go-echarts/v2/...
+$ go get -u github.com/ira-anriy/go-echarts/v2/...
 ```
 
 OR
@@ -21,7 +20,7 @@ OR
 ```shell
 # go.mod
 
-require github.com/go-echarts/go-echarts/v2
+require github.com/ira-anriy/go-echarts/v2
 ```
 
 ## classic to get go-echarts
@@ -49,11 +48,11 @@ need little adjust.
 
 # ✨ Features
 
-* Clean and comprehensive API.
-* Visualize your data in 25+ different ways.
-* Highly configurable chart options.
-* Detailed documentation and a rich collection of examples.
-* Visualize your geographical data with 400+ maps.
+- Clean and comprehensive API.
+- Visualize your data in 25+ different ways.
+- Highly configurable chart options.
+- Detailed documentation and a rich collection of examples.
+- Visualize your geographical data with 400+ maps.
 
 # 💡 Contribution
 
@@ -63,4 +62,3 @@ Please do not hesitate to ask a question or send a pull request.
 
 We strongly value documentation and integration with other projects, so we are very glad to accept improvements for
 these aspects.
-

@@ -3,8 +3,8 @@ package opts
 import (
 	"strings"
 
-	"github.com/go-echarts/go-echarts/v2/types"
-	"github.com/go-echarts/go-echarts/v2/util"
+	"github.com/ira-anriy/go-echarts/v2/types"
+	"github.com/ira-anriy/go-echarts/v2/util"
 )
 
 const (
