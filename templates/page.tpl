@@ -22,6 +22,10 @@
     {{- range .Charts }} {{ template "base" . }} {{- end }}
 {{ end }}
 
+<script type="text/javascript">
+echarts.connect('temp_group');
+</script>
+
 </body>
 </html>
 {{ end }}
