@@ -1,6 +1,6 @@
 package event
 
-import "github.com/ira-anriy/go-echarts/v2/types"
+import "github.com/iray-anriy/go-echarts/v2/types"
 
 // Listener is the abstract of events listening in echarts
 // see https://echarts.apache.org/handbook/en/concepts/event

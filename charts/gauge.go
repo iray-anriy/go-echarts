@@ -1,9 +1,9 @@
 package charts
 
 import (
-	"github.com/ira-anriy/go-echarts/v2/opts"
-	"github.com/ira-anriy/go-echarts/v2/render"
-	"github.com/ira-anriy/go-echarts/v2/types"
+	"github.com/iray-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/render"
+	"github.com/iray-anriy/go-echarts/v2/types"
 )
 
 // Gauge represents a gauge chart.

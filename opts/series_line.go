@@ -1,6 +1,6 @@
 package opts
 
-import "github.com/ira-anriy/go-echarts/v2/types"
+import "github.com/iray-anriy/go-echarts/v2/types"
 
 // LineChart is the options set for a line chart.
 // https://echarts.apache.org/en/option.html#series-line

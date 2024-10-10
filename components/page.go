@@ -1,9 +1,9 @@
 package components
 
 import (
-	"github.com/ira-anriy/go-echarts/v2/opts"
-	"github.com/ira-anriy/go-echarts/v2/render"
-	"github.com/ira-anriy/go-echarts/v2/util"
+	"github.com/iray-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/render"
+	"github.com/iray-anriy/go-echarts/v2/util"
 )
 
 type Layout string

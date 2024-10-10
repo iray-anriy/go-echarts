@@ -1,6 +1,6 @@
 package opts
 
-import "github.com/ira-anriy/go-echarts/v2/types"
+import "github.com/iray-anriy/go-echarts/v2/types"
 
 func Bool(val bool) types.Bool {
 	return &val

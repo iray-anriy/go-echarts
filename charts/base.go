@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"html/template"
 
-	"github.com/ira-anriy/go-echarts/v2/event"
-	"github.com/ira-anriy/go-echarts/v2/types"
-	"github.com/ira-anriy/go-echarts/v2/util"
+	"github.com/iray-anriy/go-echarts/v2/event"
+	"github.com/iray-anriy/go-echarts/v2/types"
+	"github.com/iray-anriy/go-echarts/v2/util"
 
-	"github.com/ira-anriy/go-echarts/v2/datasets"
-	"github.com/ira-anriy/go-echarts/v2/opts"
-	"github.com/ira-anriy/go-echarts/v2/render"
+	"github.com/iray-anriy/go-echarts/v2/datasets"
+	"github.com/iray-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/render"
 )
 
 // GlobalOpts sets the Global options for charts.

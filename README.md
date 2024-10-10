@@ -20,7 +20,7 @@
     <a href="https://opensource.org/licenses/MIT" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="MIT License">
     </a>
-    <a href="https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2" style="text-decoration: none;">
+    <a href="https://pkg.go.dev/github.com/iray-anriy/go-echarts/v2" style="text-decoration: none;">
         <img src="https://godoc.org/github.com/go-echarts/go-echarts?status.svg" alt="GoDoc">
     </a>
     <a href="https://echarts.apache.org/" style="text-decoration: none;">
@@ -61,7 +61,7 @@ $ mkdir v2 && mv charts components datasets opts render templates types v2
 Use gomod style
 
 ```shell
-$ go get -u github.com/ira-anriy/go-echarts/v2/...
+$ go get -u github.com/iray-anriy/go-echarts/v2/...
 ```
 
 OR
@@ -69,7 +69,7 @@ OR
 ```shell
 # go.mod
 
-require github.com/ira-anriy/go-echarts/v2
+require github.com/iray-anriy/go-echarts/v2
 ```
 
 ### ⏳ Version
@@ -94,7 +94,7 @@ So, if you upgrade your projects cross the `rc` versions, maybe need little adju
 ### 📝 Usage
 
 It's easy to get started with go-echarts with the [handbook](https://go-echarts.github.io/go-echarts), [go-echarts/examples](https://github.com/go-echarts/examples)
-and [GoDocs](https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2).
+and [GoDocs](https://pkg.go.dev/github.com/iray-anriy/go-echarts/v2).
 
 In this example, we create a simple bar chart with only a few lines of code.
 
@@ -105,8 +105,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/ira-anriy/go-echarts/v2/charts"
-	"github.com/ira-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/charts"
+	"github.com/iray-anriy/go-echarts/v2/opts"
 )
 
 // generate random data for bar chart
@@ -150,9 +150,9 @@ import (
 	"math/rand"
 	"net/http"
 
-	"github.com/ira-anriy/go-echarts/v2/charts"
-	"github.com/ira-anriy/go-echarts/v2/opts"
-	"github.com/ira-anriy/go-echarts/v2/types"
+	"github.com/iray-anriy/go-echarts/v2/charts"
+	"github.com/iray-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/types"
 )
 
 // generate random data for line chart
@@ -221,7 +221,7 @@ func main() {
 </div>
 
 For more information, please refer to [handbook](https://go-echarts.github.io/go-echarts/), [go-echarts/examples](https://github.com/go-echarts/examples) and
-the [GoDoc](https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2).
+the [GoDoc](https://pkg.go.dev/github.com/iray-anriy/go-echarts/v2).
 
 ### 💡 Contribution
 

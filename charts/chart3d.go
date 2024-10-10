@@ -1,8 +1,8 @@
 package charts
 
 import (
-	"github.com/ira-anriy/go-echarts/v2/opts"
-	"github.com/ira-anriy/go-echarts/v2/types"
+	"github.com/iray-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/types"
 )
 
 // Chart3D is a chart in 3D coordinates.

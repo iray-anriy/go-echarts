@@ -1,6 +1,6 @@
 package opts
 
-import "github.com/ira-anriy/go-echarts/v2/types"
+import "github.com/iray-anriy/go-echarts/v2/types"
 
 // VisualMap is a type of component for visual encoding, which maps the data to visual channels.
 // https://echarts.apache.org/en/option.html#visualMap

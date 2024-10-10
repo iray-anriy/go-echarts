@@ -1,6 +1,6 @@
 package opts
 
-import "github.com/ira-anriy/go-echarts/v2/types"
+import "github.com/iray-anriy/go-echarts/v2/types"
 
 // GeoComponent is the option set for geo component.
 // https://echarts.apache.org/en/option.html#geo

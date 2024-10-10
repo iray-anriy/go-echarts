@@ -20,7 +20,7 @@
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="MIT License">
     </a>
-        <a href="https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2">
+        <a href="https://pkg.go.dev/github.com/iray-anriy/go-echarts/v2">
         <img src="https://godoc.org/github.com/go-echarts/go-echarts?status.svg" alt="GoDoc">
     </a>
     <a href="https://echarts.apache.org/">
@@ -52,7 +52,7 @@ $ mkdir v2 && mv charts components datasets opts render templates types v2
 GoMod
 
 ```shell
-require github.com/ira-anriy/go-echarts/v2
+require github.com/iray-anriy/go-echarts/v2
 ```
 
 ### ⏳ 版本
@@ -75,7 +75,7 @@ go-echarts 现在有 v1 和 v2 两个大版本，v1 版本的代码位于 v1 分
 
 使用`go-echarts`
 可以参考[handbook](https://go-echarts.github.io/go-echarts), [go-echarts/examples](https://github.com/go-echarts/examples)
-和 [GoDocs](https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2).
+和 [GoDocs](https://pkg.go.dev/github.com/iray-anriy/go-echarts/v2).
 仅需要几行核心代码就可画出美观的图表
 
 ```golang
@@ -85,8 +85,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/ira-anriy/go-echarts/v2/charts"
-	"github.com/ira-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/charts"
+	"github.com/iray-anriy/go-echarts/v2/opts"
 )
 
 // generate random data for bar chart
@@ -130,9 +130,9 @@ import (
 	"math/rand"
 	"net/http"
 
-	"github.com/ira-anriy/go-echarts/v2/charts"
-	"github.com/ira-anriy/go-echarts/v2/opts"
-	"github.com/ira-anriy/go-echarts/v2/types"
+	"github.com/iray-anriy/go-echarts/v2/charts"
+	"github.com/iray-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/types"
 )
 
 // generate random data for line chart

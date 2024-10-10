@@ -8,5 +8,5 @@
 </p>
 
 [GitHub](https://github.com/go-echarts/go-echarts)
-[GoDoc](https://pkg.go.dev/github.com/ira-anriy/go-echarts/v2)
+[GoDoc](https://pkg.go.dev/github.com/iray-anriy/go-echarts/v2)
 [Examples](https://github.com/go-echarts/examples)

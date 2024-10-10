@@ -1,4 +1,4 @@
-module github.com/ira-anriy/go-echarts/v2
+module github.com/iray-anriy/go-echarts/v2
 
 go 1.18
 

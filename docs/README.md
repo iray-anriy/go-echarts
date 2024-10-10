@@ -12,7 +12,7 @@
 ## gomod
 
 ```shell
-$ go get -u github.com/ira-anriy/go-echarts/v2/...
+$ go get -u github.com/iray-anriy/go-echarts/v2/...
 ```
 
 OR
@@ -20,7 +20,7 @@ OR
 ```shell
 # go.mod
 
-require github.com/ira-anriy/go-echarts/v2
+require github.com/iray-anriy/go-echarts/v2
 ```
 
 ## classic to get go-echarts

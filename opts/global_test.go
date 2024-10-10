@@ -3,7 +3,7 @@ package opts
 import (
 	"testing"
 
-	"github.com/ira-anriy/go-echarts/v2/util"
+	"github.com/iray-anriy/go-echarts/v2/util"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -3,10 +3,10 @@ package charts
 import (
 	"log"
 
-	"github.com/ira-anriy/go-echarts/v2/datasets"
-	"github.com/ira-anriy/go-echarts/v2/opts"
-	"github.com/ira-anriy/go-echarts/v2/render"
-	"github.com/ira-anriy/go-echarts/v2/types"
+	"github.com/iray-anriy/go-echarts/v2/datasets"
+	"github.com/iray-anriy/go-echarts/v2/opts"
+	"github.com/iray-anriy/go-echarts/v2/render"
+	"github.com/iray-anriy/go-echarts/v2/types"
 )
 
 // Geo represents a geo chart.

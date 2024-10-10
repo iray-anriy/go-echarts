@@ -5,7 +5,7 @@ import (
 	"html"
 	"io"
 
-	"github.com/ira-anriy/go-echarts/v2/templates"
+	"github.com/iray-anriy/go-echarts/v2/templates"
 )
 
 type chartRender struct {
