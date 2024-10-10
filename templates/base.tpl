@@ -8,6 +8,7 @@
 <script type="text/javascript">
     "use strict";
     let goecharts_{{ .ChartID | safeJS }} = echarts.init(document.getElementById('{{ .ChartID | safeJS }}'), "{{ .Theme }}", { renderer: "{{  .Initialization.Renderer }}" });
+    goecharts_{{ .ChartID | safeJS }}.group = 'temp_group';
     let option_{{ .ChartID | safeJS }} = {{ template "base_option" . }}
     goecharts_{{ .ChartID | safeJS }}.setOption(option_{{ .ChartID | safeJS }});
 
